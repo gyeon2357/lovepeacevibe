@@ -21,9 +21,18 @@ body {
 }
 
 header {
-  max-width: 300px;
-  font-size: 1.5rem;
-  line-height: 0.6;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+
+  z-index: 1;
+}
+
+header p {
+  display: inline;
+  font-size: 3rem;
+  line-height: 1;
 }
 
 article {
@@ -34,63 +43,126 @@ article {
 article figure img {
   position: absolute;
   transform: translate(-50%, -50%);
+  transition: all 0.25s ease;
+  transform-origin: 50% 50%;
 }
 
-article figure img:nth-child(1) {
+article.formobile figure img:nth-child(1) {
   width: 4rem;
-  top: 3rem;
-  right: 0;
+  top: 2rem;
+  right: 2.5rem;
 }
 
-article figure img:nth-child(2) {
+article.formobile figure img:nth-child(2) {
   width: 4rem;
   top: 12rem;
   right: 1.25rem;
 }
 
-article figure img:nth-child(3) {
+article.formobile figure img:nth-child(3) {
   width: 11rem;
-  top: 18rem;
-  left: 8.75rem;
+  top: 11rem;
+  left: 2rem;
 }
 
-article figure img:nth-child(4) {
+article.formobile figure img:nth-child(1) {
+  -webkit-animation: scale2 4s infinite;
+  -moz-animation: scale2 4s infinite;
+  -ms-animation: scale2 4s infinite;
+  animation: scale2 4s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+article.formobile figure img:nth-child(3) {
+  -webkit-animation: rotate3 3s infinite;
+  -moz-animation: rotate3 3s infinite;
+  -ms-animation: rotate3 3s infinite;
+  animation: rotate3 3s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+article.formobile figure img:nth-child(5) {
+  -webkit-animation: rotate4 3s infinite;
+  -moz-animation: rotate4 3s infinite;
+  -ms-animation: rotate4 3s infinite;
+  animation: rotate4 3s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+article.formobile figure img:nth-child(8) {
+  -webkit-animation: rotate2 5s infinite;
+  -moz-animation: rotate2 5s infinite;
+  -ms-animation: rotate2 5s infinite;
+  animation: rotate2 5s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+article.formobile figure img:nth-child(9) {
+  -webkit-animation: scale1 3s infinite;
+  -moz-animation: scale1 3s infinite;
+  -ms-animation: scale1 3s infinite;
+  animation: scale1 3s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+article.formobile figure img:nth-child(3):hover,
+article.formobile figure img:nth-child(5):hover,
+article.formobile figure img:nth-child(8):hover {
+  scale: 1.08;
+}
+
+article.formobile figure img:nth-child(4) {
   width: 4rem;
   top: 17rem;
   right: -0.75rem;
 }
 
-article figure img:nth-child(5) {
+article.formobile figure img:nth-child(5) {
   width: 9rem;
-  top: 27rem;
-  right: -1rem;
+  top: 21rem;
+  right: 5rem;
 }
 
-article figure img:nth-child(6) {
+article.formobile figure img:nth-child(6) {
   width: 3.5rem;
   top: 23rem;
   left: 3rem;
 }
 
-article figure img:nth-child(7) {
+article.formobile figure img:nth-child(7) {
   width: 3.5rem;
   top: 26.5rem;
   left: 8rem;
 }
 
-article figure img:nth-child(8) {
+article.formobile figure img:nth-child(8) {
   width: 9rem;
-  top: 35.5rem;
-  left: 5.5rem;
+  top: 30rem;
+  left: 1rem;
 }
 
-article figure img:nth-child(9) {
+article.formobile figure img:nth-child(9) {
   width: 4rem;
-  top: 38.75rem;
-  right: 7rem;
+  top: 38rem;
+  right: 8.5rem;
 }
 
-article figure img:nth-child(10) {
+article.formobile figure img:nth-child(10) {
   width: 4rem;
   top: 36.75rem;
   right: 0.5rem;
@@ -112,14 +184,131 @@ address {
 }
 
 address span:nth-child(1),
-header h1:nth-child(1) {
+header p:nth-child(1) {
   color: #eb6a3c;
 }
 address span:nth-child(2),
-header h1:nth-child(2) {
+header p:nth-child(2) {
   color: #29aae0;
 }
 address span:nth-child(3),
-header h1:nth-child(3) {
+header p:nth-child(3) {
   color: #86d41f;
+}
+
+@keyframes scale1 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    transform: scale(1.09);
+  }
+  100% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale2 {
+  0% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes rotate2 {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  100% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@keyframes rotate3 {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    transform: rotate(7deg);
+  }
+  100% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@keyframes rotate4 {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    transform: rotate(4deg);
+  }
+  100% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+.formobile {
+  display: none;
+}
+
+.fordesktop {
+  display: block;
+}
+@media screen and (orientation: portrait), (max-width: 480px) {
+  .formobile {
+    display: block;
+  }
+
+  header {
+    position: relative;
+    transform: translate(0);
+
+    top: 0;
+    left: 0;
+  }
+
+  header p {
+    display: block;
+    font-size: 2.5rem;
+    line-height: 0.3;
+  }
+
+  .fordesktop {
+    display: none;
+  }
 }
