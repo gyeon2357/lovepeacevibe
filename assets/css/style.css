@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "font";
+  src: url("../fonts/Brice-Bold-Expanded.otf") format("opentype");
+}
+
+:root {
+  --ion-safe-area-top: env(safe-area-inset-top);
+  --ion-safe-area-bottom: env(safe-area-inset-bottom);
+}
+
+html {
+  font-size: 16px;
+  overflow: hidden;
+}
+
+body {
+  font-family: "font";
+  font-size: 1rem;
+
+  margin: 1rem 1.5rem;
+}
+
+header {
+  max-width: 300px;
+  font-size: 1.5rem;
+  line-height: 0.6;
+}
+
+article {
+  width: 100%;
+  height: 100vh;
+}
+
+article figure img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+article figure img:nth-child(1) {
+  width: 4rem;
+  top: 3rem;
+  right: 0;
+}
+
+article figure img:nth-child(2) {
+  width: 4rem;
+  top: 12rem;
+  right: 1.25rem;
+}
+
+article figure img:nth-child(3) {
+  width: 11rem;
+  top: 18rem;
+  left: 8.75rem;
+}
+
+article figure img:nth-child(4) {
+  width: 4rem;
+  top: 17rem;
+  right: -0.75rem;
+}
+
+article figure img:nth-child(5) {
+  width: 9rem;
+  top: 27rem;
+  right: -1rem;
+}
+
+article figure img:nth-child(6) {
+  width: 3.5rem;
+  top: 23rem;
+  left: 3rem;
+}
+
+article figure img:nth-child(7) {
+  width: 3.5rem;
+  top: 26.5rem;
+  left: 8rem;
+}
+
+article figure img:nth-child(8) {
+  width: 9rem;
+  top: 35.5rem;
+  left: 5.5rem;
+}
+
+article figure img:nth-child(9) {
+  width: 4rem;
+  top: 38.75rem;
+  right: 7rem;
+}
+
+article figure img:nth-child(10) {
+  width: 4rem;
+  top: 36.75rem;
+  right: 0.5rem;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0.5rem;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+address {
+  font-style: normal;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+address span:nth-child(1),
+header h1:nth-child(1) {
+  color: #eb6a3c;
+}
+address span:nth-child(2),
+header h1:nth-child(2) {
+  color: #29aae0;
+}
+address span:nth-child(3),
+header h1:nth-child(3) {
+  color: #86d41f;
+}
