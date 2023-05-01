@@ -28,7 +28,7 @@ body {
 header {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: calc(50% - 1rem);
   left: 50%;
 
   z-index: 1;
@@ -93,6 +93,66 @@ article.fordesktop figure img:nth-child(6) {
   width: 3.5rem;
   top: 8rem;
   left: 52%;
+}
+
+article.fordesktop figure img:nth-child(7) {
+  width: 3.5rem;
+  top: 8rem;
+  left: 60%;
+}
+
+article.fordesktop figure img:nth-child(8) {
+  width: 15rem;
+  top: 12rem;
+  left: 72%;
+}
+
+article.fordesktop figure img:nth-child(9) {
+  width: 14rem;
+  top: 12rem;
+  left: 90%;
+}
+
+article.fordesktop figure img:nth-child(10) {
+  width: 15rem;
+  top: 32rem;
+  left: 5.25%;
+}
+
+article.fordesktop figure img:nth-child(11) {
+  width: 6rem;
+  top: 29.5rem;
+  left: 23%;
+}
+
+article.fordesktop figure img:nth-child(12) {
+  width: 15rem;
+  top: 32rem;
+  left: 80%;
+}
+
+article.fordesktop figure img:nth-child(13) {
+  width: 6rem;
+  top: 29.5rem;
+  left: 94%;
+}
+
+article.fordesktop figure img:nth-child(14) {
+  width: 28rem;
+  top: 80%;
+  left: -3.6%;
+}
+
+article.fordesktop figure img:nth-child(15) {
+  width: 16.5rem;
+  top: 80%;
+  left: 23.3%;
+}
+
+article.fordesktop figure img:nth-child(16) {
+  width: 12rem;
+  top: 78%;
+  left: 39.3%;
 }
 
 article.formobile figure img:nth-child(1) {
