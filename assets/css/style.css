@@ -251,10 +251,10 @@ article.fordesktop figure img:nth-child(18) {
   top: 72%;
   left: 53%;
 
-  -webkit-animation: scale2 4s infinite;
-  -moz-animation: scale2 4s infinite;
-  -ms-animation: scale2 4s infinite;
-  animation: scale2 4s infinite;
+  -webkit-animation: rotate4 4s infinite;
+  -moz-animation: rotate4 4s infinite;
+  -ms-animation: rotate4 4s infinite;
+  animation: rotate4 4s infinite;
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
   -ms-animation-timing-function: linear;
@@ -435,7 +435,7 @@ article.fordesktop figure img:nth-child(43) {
 article.formobile figure img:nth-child(1) {
   width: 4rem;
   top: 2rem;
-  right: 2.5rem;
+  right: 2rem;
 }
 
 article.formobile figure img:nth-child(2) {
@@ -514,7 +514,7 @@ article.formobile figure img:nth-child(8):hover {
 article.formobile figure img:nth-child(4) {
   width: 4rem;
   top: 17rem;
-  right: 1.5rem;
+  right: 1rem;
 
   -webkit-animation: rotate4 2s infinite;
   -moz-animation: rotate4 2s infinite;
@@ -600,6 +600,10 @@ address span:nth-child(1),
 header p:nth-child(1) {
   color: #eb6a3c;
 }
+address span:nth-child(1) {
+margin-right: 0.125rem;
+}
+
 address span:nth-child(2),
 header p:nth-child(2) {
   color: #29aae0;
@@ -787,7 +791,7 @@ header p:nth-child(3) {
     background-color: #fefefe;
     margin: auto;
     padding: 0.75rem 1.25rem;
-    width: 75%;
+    width: calc(80% - 1rem);
   }
 
   .ebcf_modal-content1 p {
