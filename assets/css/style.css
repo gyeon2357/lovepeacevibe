@@ -8,9 +8,14 @@
   --ion-safe-area-bottom: env(safe-area-inset-bottom);
 }
 
+html,
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+
 html {
   font-size: 16px;
-  overflow: hidden;
 }
 
 body {
@@ -56,25 +61,38 @@ article figure img {
 article.fordesktop figure img:nth-child(1) {
   width: 15rem;
   top: 10rem;
-  left: 6rem;
+  left: 4%;
 }
 
 article.fordesktop figure img:nth-child(2) {
   width: 13rem;
   top: 10rem;
-  left: 22rem;
+  left: 20%;
 }
 
 article.fordesktop figure img:nth-child(3) {
   width: 2.5rem;
   top: 11.5rem;
-  left: 28rem;
+  left: 25%;
 }
 
 article.fordesktop figure img:nth-child(4) {
-  width: 3rem;
+  width: 3.5rem;
   top: 8rem;
-  left: 40rem;
+  left: 35%;
+}
+
+article.fordesktop figure img:nth-child(5) {
+  width: 12rem;
+  transform: scaleX(-1);
+  top: 9rem;
+  left: 40%;
+}
+
+article.fordesktop figure img:nth-child(6) {
+  width: 3.5rem;
+  top: 8rem;
+  left: 52%;
 }
 
 article.formobile figure img:nth-child(1) {
@@ -330,7 +348,7 @@ header p:nth-child(3) {
   /* Stay in place */
   z-index: 1;
   /* Sit on top */
-  padding-top: 30%;
+  padding-top: 20%;
   /* Location of the box */
   left: 0;
   top: 0;
@@ -355,6 +373,8 @@ header p:nth-child(3) {
 }
 
 .ebcf_modal-content1 p {
+  font-size: 1rem;
+  line-height: 1.5;
   margin: 0.5rem 0;
   padding: 0;
 }
