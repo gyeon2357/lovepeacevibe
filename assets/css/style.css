@@ -27,16 +27,17 @@ header {
 
   z-index: 1;
   cursor: pointer;
-  transition: opacity 0.125s ease;
+  transition: all 0.25s ease;
 }
 
 header:hover {
   opacity: 0.8;
+  filter: contrast(0.5);
 }
 
 header p {
   display: inline;
-  font-size: 3rem;
+  font-size: 3.125rem;
   line-height: 1;
 }
 
@@ -103,13 +104,13 @@ article.fordesktop figure img:nth-child(5) {
 
 article.fordesktop figure img:nth-child(6) {
   width: 3.5rem;
-  top: 8rem;
+  top: 5.75rem;
   left: 52%;
 }
 
 article.fordesktop figure img:nth-child(7) {
   width: 3.5rem;
-  top: 8rem;
+  top: 7.5rem;
   left: 60%;
 }
 
@@ -338,6 +339,23 @@ article.fordesktop figure img:nth-child(28) {
   -ms-animation-timing-function: linear;
   animation-timing-function: linear;
 }
+
+article.fordesktop figure img:nth-child(2):hover,
+article.fordesktop figure img:nth-child(5):hover,
+article.fordesktop figure img:nth-child(9):hover,
+article.fordesktop figure img:nth-child(10):hover,
+article.fordesktop figure img:nth-child(13):hover,
+article.fordesktop figure img:nth-child(14):hover,
+article.fordesktop figure img:nth-child(15):hover,
+article.fordesktop figure img:nth-child(16):hover,
+article.fordesktop figure img:nth-child(17):hover,
+article.fordesktop figure img:nth-child(18):hover,
+article.fordesktop figure img:nth-child(19):hover,
+article.fordesktop figure img:nth-child(24):hover,
+article.fordesktop figure img:nth-child(28):hover {
+  scale: 1.08;
+}
+
 article.fordesktop figure img:nth-child(29) {
   width: 3.5rem;
   top: 38rem;
@@ -516,8 +534,17 @@ article.formobile figure img:nth-child(5) {
 
 article.formobile figure img:nth-child(6) {
   width: 3.5rem;
-  top: 23rem;
-  left: 3rem;
+  top: 22rem;
+  left: 1.5rem;
+
+  -webkit-animation: scale1 2.5s infinite;
+  -moz-animation: scale1 2.5s infinite;
+  -ms-animation: scale1 2.5s infinite;
+  animation: scale1 2.5s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 article.formobile figure img:nth-child(7) {
@@ -525,10 +552,10 @@ article.formobile figure img:nth-child(7) {
   top: 26.5rem;
   left: 8rem;
 
-  -webkit-animation: scale2 2s infinite;
-  -moz-animation: scale2 2s infinite;
-  -ms-animation: scale2 2s infinite;
-  animation: scale2 2s infinite;
+  -webkit-animation: scale2 3.5s infinite;
+  -moz-animation: scale2 3.5s infinite;
+  -ms-animation: scale2 3.5s infinite;
+  animation: scale2 3.5s infinite;
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
   -ms-animation-timing-function: linear;
