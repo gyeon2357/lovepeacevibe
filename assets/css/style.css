@@ -15,7 +15,7 @@ html {
 body {
   font-family: "font";
   font-size: 1rem;
-
+  overflow: hidden;
   margin: 1rem 1.5rem;
 }
 
@@ -60,8 +60,17 @@ article.fordesktop figure img:nth-child(1) {
 
 article.fordesktop figure img:nth-child(2) {
   width: 13rem;
-  top: 10rem;
-  left: 20%;
+  top: 3rem;
+  left: 15%;
+
+  -webkit-animation: rotate2 3s infinite;
+  -moz-animation: rotate2 3s infinite;
+  -ms-animation: rotate2 3s infinite;
+  animation: rotate2 3s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 article.fordesktop figure img:nth-child(3) {
@@ -79,8 +88,17 @@ article.fordesktop figure img:nth-child(4) {
 article.fordesktop figure img:nth-child(5) {
   width: 12rem;
   transform: scaleX(-1);
-  top: 9rem;
+  top: 5.5rem;
   left: 40%;
+
+  -webkit-animation: scale2 3s infinite;
+  -moz-animation: scale2 3s infinite;
+  -ms-animation: scale2 3s infinite;
+  animation: scale2 3s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 article.fordesktop figure img:nth-child(6) {
@@ -97,20 +115,47 @@ article.fordesktop figure img:nth-child(7) {
 
 article.fordesktop figure img:nth-child(8) {
   width: 15rem;
-  top: 12rem;
-  left: 72%;
+  top: 5rem;
+  left: 64%;
+
+  -webkit-animation: rotate4 5s infinite;
+  -moz-animation: rotate4 5s infinite;
+  -ms-animation: rotate4 5s infinite;
+  animation: rotate4 5s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 article.fordesktop figure img:nth-child(9) {
   width: 14rem;
-  top: 12rem;
-  left: 90%;
+  top: 8rem;
+  left: 85%;
+
+  -webkit-animation: rotate4 4s infinite;
+  -moz-animation: rotate4 4s infinite;
+  -ms-animation: rotate4 4s infinite;
+  animation: rotate4 4s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 article.fordesktop figure img:nth-child(10) {
   width: 15rem;
-  top: 32rem;
-  left: 5.25%;
+  top: 28rem;
+  left: -1rem;
+
+  -webkit-animation: rotate4 2s infinite;
+  -moz-animation: rotate4 2s infinite;
+  -ms-animation: rotate4 2s infinite;
+  animation: rotate4 2s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 article.fordesktop figure img:nth-child(11) {
@@ -122,31 +167,251 @@ article.fordesktop figure img:nth-child(11) {
 article.fordesktop figure img:nth-child(12) {
   width: 15rem;
   top: 32rem;
-  left: 80%;
+  left: 76%;
 }
 
 article.fordesktop figure img:nth-child(13) {
-  width: 6rem;
-  top: 29.5rem;
-  left: 94%;
+  width: 5.7rem;
+  top: 23.5rem;
+  left: 90%;
+
+  -webkit-animation: scale1 4s infinite;
+  -moz-animation: scale1 4s infinite;
+  -ms-animation: scale1 4s infinite;
+  animation: scale1 4s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 article.fordesktop figure img:nth-child(14) {
-  width: 28rem;
-  top: 80%;
-  left: -3.6%;
+  width: 27rem;
+  top: 74%;
+  left: -14%;
+
+  -webkit-animation: rotate4 5s infinite;
+  -moz-animation: rotate4 5s infinite;
+  -ms-animation: rotate4 5s infinite;
+  animation: rotate4 5s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 article.fordesktop figure img:nth-child(15) {
   width: 16.5rem;
-  top: 80%;
-  left: 23.3%;
+  top: 66%;
+  left: 16.3%;
+
+  -webkit-animation: rotate4 5s infinite;
+  -moz-animation: rotate4 5s infinite;
+  -ms-animation: rotate4 5s infinite;
+  animation: rotate4 5s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 article.fordesktop figure img:nth-child(16) {
   width: 12rem;
-  top: 78%;
-  left: 39.3%;
+  top: 68%;
+  left: 34.3%;
+
+  -webkit-animation: rotate2 3s infinite;
+  -moz-animation: rotate2 3s infinite;
+  -ms-animation: rotate2 3s infinite;
+  animation: rotate2 3s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+article.fordesktop figure img:nth-child(17) {
+  width: 11rem;
+  top: 60%;
+  left: 44.5%;
+
+  -webkit-animation: rotate4 2s infinite;
+  -moz-animation: rotate4 2s infinite;
+  -ms-animation: rotate4 2s infinite;
+  animation: rotate4 2s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+article.fordesktop figure img:nth-child(18) {
+  width: 29rem;
+  top: 72%;
+  left: 53%;
+
+  -webkit-animation: scale2 4s infinite;
+  -moz-animation: scale2 4s infinite;
+  -ms-animation: scale2 4s infinite;
+  animation: scale2 4s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+article.fordesktop figure img:nth-child(19) {
+  width: 14.5rem;
+  top: 72%;
+  left: 88%;
+
+  -webkit-animation: rotate4 4s infinite;
+  -moz-animation: rotate4 4s infinite;
+  -ms-animation: rotate4 4s infinite;
+  animation: rotate4 4s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+article.fordesktop figure img:nth-child(20) {
+  width: 3rem;
+  top: 20rem;
+  left: 1%;
+}
+article.fordesktop figure img:nth-child(21) {
+  width: 3rem;
+  top: 20rem;
+  left: 7.5%;
+}
+article.fordesktop figure img:nth-child(22) {
+  width: 3rem;
+  top: 19rem;
+  left: 18%;
+}
+article.fordesktop figure img:nth-child(23) {
+  width: 3rem;
+  top: 20rem;
+  left: 23%;
+}
+article.fordesktop figure img:nth-child(24) {
+  width: 13.5rem;
+  top: 13rem;
+  left: 25.5%;
+
+  -webkit-animation: scale1 4s infinite;
+  -moz-animation: scale1 4s infinite;
+  -ms-animation: scale1 4s infinite;
+  animation: scale1 4s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+article.fordesktop figure img:nth-child(25) {
+  width: 3rem;
+  top: 25rem;
+  left: 38%;
+}
+article.fordesktop figure img:nth-child(26) {
+  width: 3rem;
+  top: 24rem;
+  left: 67%;
+}
+article.fordesktop figure img:nth-child(27) {
+  width: 3.5rem;
+  top: 20rem;
+  left: 80%;
+}
+article.fordesktop figure img:nth-child(28) {
+  width: 11rem;
+  top: 16rem;
+  left: 53%;
+
+  -webkit-animation: scale1 6s infinite;
+  -moz-animation: scale1 6s infinite;
+  -ms-animation: scale1 6s infinite;
+  animation: scale1 6s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+article.fordesktop figure img:nth-child(29) {
+  width: 3.5rem;
+  top: 38rem;
+  left: 95%;
+}
+article.fordesktop figure img:nth-child(30) {
+  width: 3.5rem;
+  top: 22rem;
+  left: 85%;
+}
+article.fordesktop figure img:nth-child(31) {
+  width: 3.5rem;
+  top: 20rem;
+  left: 98%;
+}
+article.fordesktop figure img:nth-child(32) {
+  width: 3.5rem;
+  top: 32rem;
+  left: 16%;
+}
+article.fordesktop figure img:nth-child(33) {
+  width: 3.5rem;
+  top: 38rem;
+  left: 22%;
+}
+article.fordesktop figure img:nth-child(34) {
+  width: 3.5rem;
+  top: 36rem;
+  left: 32%;
+}
+article.fordesktop figure img:nth-child(35) {
+  width: 3.5rem;
+  top: 38rem;
+  left: 58%;
+}
+article.fordesktop figure img:nth-child(36) {
+  width: 3.5rem;
+  top: 39rem;
+  left: 67%;
+}
+article.fordesktop figure img:nth-child(37) {
+  width: 3.5rem;
+  top: 40rem;
+  left: 87%;
+}
+article.fordesktop figure img:nth-child(38) {
+  width: 3.5rem;
+  top: 90%;
+  left: 10%;
+}
+article.fordesktop figure img:nth-child(39) {
+  width: 3.5rem;
+  top: 91%;
+  left: 19%;
+}
+article.fordesktop figure img:nth-child(40) {
+  width: 3.5rem;
+  top: 88%;
+  left: 32%;
+}
+article.fordesktop figure img:nth-child(41) {
+  width: 3.5rem;
+  top: 89%;
+  left: 48%;
+}
+article.fordesktop figure img:nth-child(42) {
+  width: 3.5rem;
+  top: 90%;
+  left: 80%;
+}
+article.fordesktop figure img:nth-child(43) {
+  width: 3.5rem;
+  top: 88%;
+  left: 86%;
 }
 
 article.formobile figure img:nth-child(1) {
@@ -231,7 +496,16 @@ article.formobile figure img:nth-child(8):hover {
 article.formobile figure img:nth-child(4) {
   width: 4rem;
   top: 17rem;
-  right: -0.75rem;
+  right: 1.5rem;
+
+  -webkit-animation: rotate4 2s infinite;
+  -moz-animation: rotate4 2s infinite;
+  -ms-animation: rotate4 2s infinite;
+  animation: rotate4 2s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 article.formobile figure img:nth-child(5) {
@@ -250,6 +524,15 @@ article.formobile figure img:nth-child(7) {
   width: 3.5rem;
   top: 26.5rem;
   left: 8rem;
+
+  -webkit-animation: scale2 2s infinite;
+  -moz-animation: scale2 2s infinite;
+  -ms-animation: scale2 2s infinite;
+  animation: scale2 2s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 article.formobile figure img:nth-child(8) {
@@ -277,6 +560,7 @@ footer {
 
   left: 50%;
   transform: translate(-50%, -50%);
+  display: none;
 }
 
 address {
@@ -300,36 +584,36 @@ header p:nth-child(3) {
 
 @keyframes scale1 {
   0% {
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0);
   }
   50% {
-    -moz-transform: scale(1.09);
-    -ms-transform: scale(1.09);
-    transform: scale(1.09);
+    -moz-transform: translateX(5%);
+    -ms-transform: translateX(5%);
+    transform: translateX(5%);
   }
   100% {
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0);
   }
 }
 @keyframes scale2 {
   0% {
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0);
   }
   50% {
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    -moz-transform: translate(5%, 5%);
+    -ms-transform: translate(5%, 5%);
+    transform: translate(5%, 5%);
   }
   100% {
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0);
   }
 }
 @keyframes rotate2 {
@@ -402,7 +686,7 @@ header p:nth-child(3) {
   /* Stay in place */
   z-index: 1;
   /* Sit on top */
-  padding-top: 20%;
+  padding-top: 10%;
   /* Location of the box */
   left: 0;
   top: 0;
@@ -422,13 +706,17 @@ header p:nth-child(3) {
 .ebcf_modal-content1 {
   background-color: #fefefe;
   margin: auto;
-  padding: 1rem;
-  width: 75%;
+  padding: 1.5rem 2rem;
+  width: 40%;
 }
 
 .ebcf_modal-content1 p {
-  font-size: 1rem;
-  line-height: 1.5;
+  font-family: "pretendard-regular", sans-serif;
+  font-weight: 500;
+  font-size: 1.375rem;
+  line-height: 1.4;
+
+  word-break: keep-all;
   margin: 0.5rem 0;
   padding: 0;
 }
@@ -442,6 +730,10 @@ header p:nth-child(3) {
 }
 
 @media screen and (orientation: portrait), (max-width: 480px) {
+  body {
+    overflow: auto;
+  }
+
   .formobile {
     display: block;
   }
@@ -460,7 +752,27 @@ header p:nth-child(3) {
     line-height: 0.3;
   }
 
+  .ebcf_modal1 {
+    padding-top: 20%;
+  }
+
+  .ebcf_modal-content1 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0.75rem 1.25rem;
+    width: 75%;
+  }
+
+  .ebcf_modal-content1 p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
   .fordesktop {
     display: none;
+  }
+
+  footer {
+    display: block;
   }
 }
