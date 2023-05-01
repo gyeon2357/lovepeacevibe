@@ -445,9 +445,9 @@ article.formobile figure img:nth-child(2) {
 }
 
 article.formobile figure img:nth-child(3) {
-  width: 11rem;
+  width: 12rem;
   top: 11rem;
-  left: 2rem;
+  left: 1.5rem;
 }
 
 article.formobile figure img:nth-child(1) {
@@ -528,13 +528,13 @@ article.formobile figure img:nth-child(4) {
 
 article.formobile figure img:nth-child(5) {
   width: 9rem;
-  top: 21rem;
-  right: 3.5rem;
+  top: 19.5rem;
+  right: 3.25rem;
 }
 
 article.formobile figure img:nth-child(6) {
   width: 3.5rem;
-  top: 22rem;
+  top: 23rem;
   left: 1.5rem;
 
   -webkit-animation: scale1 2.5s infinite;
@@ -549,7 +549,7 @@ article.formobile figure img:nth-child(6) {
 
 article.formobile figure img:nth-child(7) {
   width: 3.5rem;
-  top: 26.5rem;
+  top: 25.5rem;
   left: 8rem;
 
   -webkit-animation: scale2 3.5s infinite;
